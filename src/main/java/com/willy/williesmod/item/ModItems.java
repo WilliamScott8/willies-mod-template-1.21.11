@@ -20,7 +20,7 @@ public class ModItems {
     public static void registerModItems() {
         WilliesMod.LOGGER.info("Registering ModItems for " + WilliesMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INVENTORY).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(BOLLOCK);
         });
     }
