@@ -1,0 +1,10 @@
+EXAMPLE bollock.json
+-- Determines textures and how its rendered
+
+{
+  "parent": "minecraft:item/generated",  // Rendered in 3D
+  "textures:": {
+    "layer0": "williesmod:item/bollock"  // Looking for 'bollock.png' in williesmod/textures/item
+  }
+}
+
